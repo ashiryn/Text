@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>latestmajor</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>FluffyVoid.Text</RootNamespace>
+        <PackageId>FluffyVoid.Text</PackageId>
+        <Title>Text</Title>
+        <Authors>FluffyVoid</Authors>
+        <Description>Text frameworks including Auto-Completion that can offer suggested text based on currently input text and History management.</Description>
+        <Company>FluffyVoid</Company>
+        <Product>FluffyVoid.Text</Product>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+
+</Project>
