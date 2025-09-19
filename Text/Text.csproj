@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>netstandard2.1</TargetFramework>
         <LangVersion>latestmajor</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
@@ -12,17 +12,22 @@
         <Description>Text frameworks including Auto-Completion that can offer suggested text based on currently input text and History management.</Description>
         <Company>FluffyVoid</Company>
         <Product>FluffyVoid.Text</Product>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.0</FileVersion>
-        <Version>1.0.1</Version>
+        <AssemblyVersion>1.0.2</AssemblyVersion>
+        <FileVersion>1.0.2</FileVersion>
+        <Version>1.0.2</Version>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-      <DocumentationFile>bin\Debug\Text.xml</DocumentationFile>
+      <DocumentationFile>bin/Debug/FluffyVoid.Text.xml</DocumentationFile>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-      <DocumentationFile>bin\Release\Text.xml</DocumentationFile>
+      <DocumentationFile>bin/Release/FluffyVoid.Text.xml</DocumentationFile>
     </PropertyGroup>
-
+	<ItemGroup>
+        <None Include="bin/$(Configuration)/FluffyVoid.Text.xml" Pack="true">
+            <PackageCopyToOutput>true</PackageCopyToOutput>
+            <PackageFlatten>true</PackageFlatten>
+        </None>
+	</ItemGroup>
 </Project>
