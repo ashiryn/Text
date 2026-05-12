@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text", "Text\Text.csproj", "{786E30DC-7894-4BD6-A581-54B5B6780284}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluffyVoid.Text", "FluffyVoid.Text\FluffyVoid.Text.csproj", "{786E30DC-7894-4BD6-A581-54B5B6780284}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
